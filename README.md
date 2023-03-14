@@ -281,9 +281,10 @@ https://apps.shopify.com/privy?search_id=ae99b6ac-3774-4887-958d-d7c5f05548d1&su
 #### - This would in turn reduce merchant complaints, refunds and revenue loss to criminals and customer churn.
 <img width="889" alt="image" src="https://user-images.githubusercontent.com/115063137/224943389-1c7d1230-e95c-4df6-9729-e4b8cda0ed36.png">
 
-#### In addition, its important to note that out of the lowest rated app developers, the majority have international origins based on their foreign language names and non LLC, and U.S. relateed incorporation as shown above in the chart of the lowest rated developers. This will help reduce the fraud related compensation to customers and establish Shopify as a trust brand for partners and end customers alike.
+#### In addition, its important to note that out of the lowest rated app developers, the majority have international origins based on their foreign language names and non LLC, and non U.S. related incorporation of their name and head office status as shown above in the chart of the lowest rated developers. 
 
-Therefore, this finding shows Shopify needs to implement some additional security measures and questionaires for foreign apps to evaluate the credibility of their sign up and country origin to prevent future fraud and scamming sellers and buyers account from happeninig.
+Therefore, this finding shows Shopify needs to implement some additional banking security measures and questionaires as well as credit worthiness checks for foreign apps to evaluate the credibility of their sign up and country origin to prevent future fraud and scamming of sellers and buyers accounts from happeninig.
+This will help reduce the fraud related compensation to customers and establish Shopify as a trust brand for partners and end customers alike.
 
 ####  3. improving Shopify's own apps based on the ratings and feedback provided through the repeated process above.
 Shopify being one of the lowest top developers should focus on improving its technology and investing in partnering and learning from its developer base to grow its own apps capabilities to help its partners and merchants deliver and market merchandise more effectively to help grow its revenue.
