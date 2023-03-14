@@ -159,7 +159,9 @@ The top categories as shown here above confirm the pricing structure that works 
 Over time, such behaviors of the developers, app users and Shopify teams help solidify the app store ecosystem much like Andriod and iOS app stores.
 
 <img width="1584" alt="image" src="https://user-images.githubusercontent.com/115063137/218898115-b1592de7-cc51-44a8-9047-9569093c2372.png">
-#### Note: From the chart above, majority of the apps have a rating of 4 and above. But how can Shopify help bring the rest of these ratings up from a 3 to a 4 ?
+
+#### Note: From the chart above, majority of the apps have a rating of 4 and above. 
+#### But how can Shopify help bring the rest of these ratings up from a 3 to a 4 ?
 
 #### This chart uncovers the possibility of eliminating all the apps with rating of 0 and 1s to make sure quality apps dominate the landscaoe and therefore provide cost savings of not hosting apps that are not productive or contributing to the revenues at Shopify.
 <img width="1559" alt="image" src="https://user-images.githubusercontent.com/115063137/218898183-0d4e5a8e-4cf4-49ea-a58f-f86625786c39.png">
@@ -167,7 +169,8 @@ Over time, such behaviors of the developers, app users and Shopify teams help so
 <img width="1560" alt="image" src="https://user-images.githubusercontent.com/115063137/218898301-04d2c9b9-af8d-4415-83ad-b27989e175ec.png">
 
 <img width="1351" alt="image" src="https://user-images.githubusercontent.com/115063137/218898396-d4a0c0f3-1f65-43a5-bea5-86f9ebd83675.png">
-Correlation helps build the confidence and understanding that the user rating for using the app is a great feedback loop for the developer and for Shopify to feel the pulse of the merchants using its app and provides good understanding through the words used in the review which we will cover next in our models and clustering techniques used.
+
+#### Correlation helps build the confidence and understanding that the user rating for using the app is a great feedback loop for the developer and for Shopify to feel the pulse of the merchants using its app and provides good understanding through the words used in the review which we will cover next in our models and clustering techniques used.
 
 ### Step 5: Understand the task and modeling (Modeling and Evaluation)
 Business Objective of the task:
@@ -227,8 +230,7 @@ Such model can increase campaign efficiency by :
 #### Using python code library : analyser.polarity_scores(body)["neg"])
 #### For example- Words like ‘bad’, ‘useless’, ‘poor’, ‘worst’ all convey a negative sentiment.”
 
-#### Lastly, using TfidfVectorizer
-
+#### Lastly:
 #### In TfidfVectorizer we consider overall document weightage of a word. It helps us in dealing with most frequent words. Using it we can penalize them. 
 
 #### TfidfVectorizer weights the word counts by a measure of how often they appear in the documents.
@@ -255,12 +257,20 @@ With Vectorization, chi square and SentimentAnalyzer text search tools we can tr
 <img width="1397" alt="image" src="https://user-images.githubusercontent.com/115063137/218927676-cfb919c6-e031-4609-b734-bb76648c4797.png">
 <img width="1383" alt="image" src="https://user-images.githubusercontent.com/115063137/218927722-d34818c9-170e-48ec-8a9e-ff6dcab6af33.png">
 
+<img width="1115" alt="image" src="https://user-images.githubusercontent.com/115063137/224927823-bf1d3cac-a947-405b-ad73-8c021aaa83c3.png">
+<img width="1073" alt="image" src="https://user-images.githubusercontent.com/115063137/224927877-85598674-8dec-4258-aaf7-ce0156780003.png">
+
+#### If you notice the large number of apps written and posted on the app store by developer Elfsight, it seems they produce lots of add on apps like  Instagram and google reviews to help build seller visibility and connection to their buyers and also promote their branding.
+
+<img width="961" alt="image" src="https://user-images.githubusercontent.com/115063137/224928353-fe183b23-fc31-468c-9d7a-989342fe94a9.png">
+
 #### Notably, Privy as the top developer of apps that cater to 3 significant categories of merchant engagement on Shopify definitely deserves a seat at the table with Shopify, its host, and with greater partnership and revenue sharing to develop more apps for its merchants, Shopify can entice its merchants to spend more money on apps which it stands to collect a great deal of revenue both from returned merchants as well as making use of site features to host their merchandise.
 
 #### The Privy app and its Shopify app store download page which include reviews and pricing info, from the above analysis demonstrates and confirms that our analysis is accurate in terms of how this app and developer has made significant contributions based on its popularity to Shopify's revenues on a monthly basis and its relationship has lasted more than 7 years which is worth noting that we can use this app as an example of how we can improve the other apps and developers' approach to app development and customer relationship building.
 https://apps.shopify.com/privy?search_id=ae99b6ac-3774-4887-958d-d7c5f05548d1&surface_detail=Privy&surface_inter_position=1&surface_intra_position=1&surface_type=search
 
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/115063137/219322130-13a0db70-e8bb-43ca-8095-83127fb96b89.png">
+
 <img width="1153" alt="image" src="https://user-images.githubusercontent.com/115063137/219322467-b3dca213-cd28-47cd-a209-40608e398d45.png">
 
 #### 2. focus more on the risk area in terms of investing on reducing fraud
