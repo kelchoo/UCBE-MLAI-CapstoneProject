@@ -184,7 +184,13 @@ Such model can increase campaign efficiency by :
 
 -- and affordable set of potential buying customers.
 
-#### we use a combination of KMeans clustering (and PCA as well as TSNE to breakdown the relationshp further between what the developer sees as features driving the ratings and reviews of the app developed for Shopify's merchants.
+#### we use a combination of Chi2 to break down the reviews as features driving the ratings and reviews of the app developed for Shopify's merchants.
+#### Chi2 is the most common feature selection method, and itis mostly used on text data.  In feature selection, we use it to check whether the occurrence of a speciﬁc termand the occurrence of a speciﬁc class are independent. Moreformally, forgiven a document D, we estimate the following quantity for each term and rank them by their score. Chi2 ﬁnds this score using equation Where•N is the observed frequency and E the expected fre-quency
+
+#### This takes the value 1 if the document contains term t and 0 otherwise
+
+#### It takes the value 1 if the document is in class c and 0 otherwise
+#### For each feature (term), a corresponding high Chi2 scoreindicates that the null hypothesis H0 of independence (mean-ing the document class has no inﬂuence over the term’sfrequency) should be rejected, and the occurrence of the termand class are dependent. In this case, we should select thefeature for the text classiﬁcation
 
 #### Continuing to clean the data and scrub for redundant columns after merging continues to be important as we drive towards the solution
 <img width="1578" alt="image" src="https://user-images.githubusercontent.com/115063137/218898914-799e3c70-cdb0-4fa5-9281-f4d3154253fb.png">
@@ -195,12 +201,37 @@ Such model can increase campaign efficiency by :
 
 #### chi-square test measures dependence between stochastic variables, so using this function “weeds out” the features that are the most likely to be independent of class and therefore irrelevant for classification.
 
-#### In module 24, I will be adding on the Elbow Method for optimal value of k in KMeans
-#### This will provide a more detailed review of the optimal value to use for k means clustering to more purposefully present the details of kmeans clustering of the reviews and ratings
 
 #### Using NLP techniques, Shopify executives can really understand how the words used in reviews can be "nuggets" for building customer loyalty and branding knowledge for the apps that are popular and the ones that are not can really get the feedback needed to understand what is causing poor take rate and downloads by merchants:
 
 <img width="1577" alt="image" src="https://user-images.githubusercontent.com/115063137/218899162-479f1a0b-7e14-44f4-a357-efc79fb27148.png">
+
+#### Overall for from a modeling standpoint: 
+#### Use of classification models for clustering words in reviews
+
+#### (provide interpretation and classification of emotions based on app store reviews submitted coupled with scoring of words using weights help predict the top reasons for low reviews)
+
+#### - SentimentIntensityAnalyzer  (VADER is an unsupervised learning algorithm widely used in Sentiment Analysis)
+
+#### VADER’s SentimentIntensityAnalyzer() takes in a string and returns a dictionary of scores in each of four categories:
+
+#### negative
+#### neutral
+#### positive
+#### compound (computed by normalizing the scores above
+
+#### Note: VADER ( Valence Aware Dictionary for Sentiment Reasoning) is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity (strength) of emotion.
+
+#### VADER sentimental analysis relies on a dictionary that maps lexical features to emotion intensities known as sentiment scores. The sentiment score of a text can be obtained by summing up the intensity of each word in the text. 
+
+#### Using python code library : analyser.polarity_scores(body)["neg"])
+#### For example- Words like ‘bad’, ‘useless’, ‘poor’, ‘worst’ all convey a negative sentiment.”
+
+#### Lastly, using TfidfVectorizer
+
+#### In TfidfVectorizer we consider overall document weightage of a word. It helps us in dealing with most frequent words. Using it we can penalize them. 
+
+#### TfidfVectorizer weights the word counts by a measure of how often they appear in the documents.
 
 
 #### 6. Results (Deployment)
@@ -216,21 +247,25 @@ With Vectorization, chi square and SentimentAnalyzer text search tools we can tr
 <img width="1747" alt="image" src="https://user-images.githubusercontent.com/115063137/218899761-51f6954c-ec6b-4f5a-9b5a-8bc21c51281f.png">
 
 ## Conclusion
-With the top apps and developers identified to drive the potential revenues and stickiness of the ego systems of apps, the company can now repeat this process at the end of each month to do the following:
+
+### Looking at the table above, with the top apps and developers identified to drive the potential revenues and stickiness of the ego systems of apps, the company can now repeat this process at the end of each month to do the following and set this process to run in automated fashion through automation of data synthesis from its enterprise database and running python scheduled jobs to produce the reports above to:
+
 #### 1. Maximize the revenue of looking at promoting the app on the above list more during the month ahead starting with the top app performer in the most categories. 
 <img width="1395" alt="image" src="https://user-images.githubusercontent.com/115063137/218927614-c695bdbb-5805-4d72-8aef-78e80775f8b4.png">
 <img width="1397" alt="image" src="https://user-images.githubusercontent.com/115063137/218927676-cfb919c6-e031-4609-b734-bb76648c4797.png">
 <img width="1383" alt="image" src="https://user-images.githubusercontent.com/115063137/218927722-d34818c9-170e-48ec-8a9e-ff6dcab6af33.png">
-Privy as the top developer of apps that cater to 3 significant categories of merchant engagement on Shopify definitely deserves a seat at the table with Shopify, its host, and with greater partnership and revenue sharing to develop more apps for its merchants, Shopify can entice its merchants to spend more money on apps which it stands to collect a great deal of revenue both from returned merchants as well as making use of site features to host their merchandise.
-The Privy app and its Shopify app store download page which include reviews and pricing info, from the above analysis demonstrates and confirms that our analysis is accurate in terms of how this app and developer has made significant contributions based on its popularity to Shopify's revenues on a monthly basis and its relationship has lasted more than 7 years which is worth noting that we can use this app as an example of how we can improve the other apps and developers' approach to app development and customer relationship building.
+
+#### Notably, Privy as the top developer of apps that cater to 3 significant categories of merchant engagement on Shopify definitely deserves a seat at the table with Shopify, its host, and with greater partnership and revenue sharing to develop more apps for its merchants, Shopify can entice its merchants to spend more money on apps which it stands to collect a great deal of revenue both from returned merchants as well as making use of site features to host their merchandise.
+
+#### The Privy app and its Shopify app store download page which include reviews and pricing info, from the above analysis demonstrates and confirms that our analysis is accurate in terms of how this app and developer has made significant contributions based on its popularity to Shopify's revenues on a monthly basis and its relationship has lasted more than 7 years which is worth noting that we can use this app as an example of how we can improve the other apps and developers' approach to app development and customer relationship building.
 https://apps.shopify.com/privy?search_id=ae99b6ac-3774-4887-958d-d7c5f05548d1&surface_detail=Privy&surface_inter_position=1&surface_intra_position=1&surface_type=search
 
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/115063137/219322130-13a0db70-e8bb-43ca-8095-83127fb96b89.png">
 <img width="1153" alt="image" src="https://user-images.githubusercontent.com/115063137/219322467-b3dca213-cd28-47cd-a209-40608e398d45.png">
 
 #### 2. focus more on the risk area in terms of investing on reducing fraud
-- looking at the reviews, Shopify should acknowledge it needs to work closely with its developers on the apps side to close the potential of scammers coming through and destroying ths trust and safety elements that keep its profitablility and market share growing. As such, by deploying the above mentioned process of generating prescriptive and discreptive analytics of its app reviews by category and identifying the app developers that need to be removed from its site or encouraged to improve it practices and app security and integration, Shopify can reduce customer churn and reduce cost to fraudulent activities.
-- This would in turn reduce merchant complaints, refunds and revenue loss to criminals and customer churn.
+#### - looking at the reviews, Shopify should acknowledge it needs to work closely with its developers on the apps side to close the potential of scammers coming through and destroying ths trust and safety elements that keep its profitablility and market share growing. As such, by deploying the above mentioned process of generating prescriptive and discreptive analytics of its app reviews by category and identifying the app developers that need to be removed from its site or encouraged to improve it practices and app security and integration, Shopify can reduce customer churn and reduce cost to fraudulent activities.
+#### - This would in turn reduce merchant complaints, refunds and revenue loss to criminals and customer churn.
 
 ####  3. improving Shopify's own apps based on the ratings and feedback provided through the repeated process above.
 Shopify being one of the lowest top developers should focus on improving its technology and investing in partnering and learning from its developer base to grow its own apps capabilities to help its partners and merchants deliver and market merchandise more effectively to help grow its revenue.
