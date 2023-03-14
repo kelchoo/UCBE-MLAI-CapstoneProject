@@ -275,6 +275,9 @@ https://apps.shopify.com/privy?search_id=ae99b6ac-3774-4887-958d-d7c5f05548d1&su
 
 #### 2. focus more on the risk area in terms of investing on reducing fraud
 #### - looking at the reviews, Shopify should acknowledge it needs to work closely with its developers on the apps side to close the potential of scammers coming through and destroying ths trust and safety elements that keep its profitablility and market share growing. As such, by deploying the above mentioned process of generating prescriptive and discreptive analytics of its app reviews by category and identifying the app developers that need to be removed from its site or encouraged to improve it practices and app security and integration, Shopify can reduce customer churn and reduce cost to fraudulent activities.
+
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/115063137/224933833-63ac9666-f213-4dd3-95c4-2adcdec8edea.png">
+
 #### - This would in turn reduce merchant complaints, refunds and revenue loss to criminals and customer churn.
 
 ####  3. improving Shopify's own apps based on the ratings and feedback provided through the repeated process above.
