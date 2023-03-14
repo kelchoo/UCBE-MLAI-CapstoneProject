@@ -239,8 +239,9 @@ Shopify being one of the lowest top developers should focus on improving its tec
  
 
 #### Outline of project
+Link to Notebook: 
 
-- [[[Link to notebook 1]()](https://github.com/kelchoo/UCBE-Capstone-Module20)](https://github.com/kelchoo/UCBE-Capstone-Module20/blob/main/Capstone20-1.ipynb)
+https://github.com/kelchoo/UCBE-MLAI-CapstoneProject/blob/main/Capstone24-1.ipynb
 
 
 
