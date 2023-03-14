@@ -46,7 +46,11 @@ I will show how I explore my data sources, test a few of the techniques, and com
 
 example of a popular app used by Shopify merchants
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/115063137/219320540-776b9a14-daba-4447-84c8-2570ffbf79e0.png">
+
+
 The purchase of the app begins with clicking on the Get Started button, and the login page to Shopify begins your process to buy the app
+
+
 <img width="508" alt="image" src="https://user-images.githubusercontent.com/115063137/219320901-386fc07e-2ed9-4312-b760-d9fb1e1ce3ff.png">
 
 #### One of the secrets to creating a successful Shopify storefront is to utilize apps, add-on programs that provide additional functionality to Shopify sites. With the Shopify App Store, site owners can customize how an online store runs and how customers and users interact with it.
