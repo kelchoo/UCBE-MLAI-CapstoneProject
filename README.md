@@ -83,7 +83,7 @@ Why should anyone care about this question?
 ## Research Question
 how do I get a recommendation of the top apps which I should focus my marketing expenses when using the monthly reports provided (as shown in the data source as extracted from Shopify’s website in the link provided below) based on the various features and attributes of each app currently available on my store at the start of a given month (assuming the files have been provided in the point below from Shopify’s internal database to the marketing team) so I can maximize revenues for each month ? 
 #### question 1: who is my top monthly app and developer in terms of reviews submitted and downloads (user counts) ?
-#### question 1.1 : With the above information, how does Shopify or any online app store host build a strong relationshop and help promote the developer and apps to help it grow its revenue and market share?
+#### question 1.1 : With the above information, how does Shopify or any online app store host build strong relationships and help promote the developer and apps to help it grow its revenue and market share?
 
 ## Data Sources
 What data will you use to answer you question?
